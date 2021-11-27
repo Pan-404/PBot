@@ -19,7 +19,7 @@ def RunBot():
         name = input("What is your name?: ")
         print("Hello " + name)
     elif new_or_have == "skip":
-        print("sa ma sugi de poponet XD L")
+        print("you just skipped.")
         
 #GUI
 

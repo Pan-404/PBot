@@ -3,4 +3,4 @@ Python bot (WIP)
 
 work in progres
 
-<Python assistent bot>
+~Python assistent bot~

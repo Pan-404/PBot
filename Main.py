@@ -36,7 +36,7 @@ def meniu():
     elif alegere == "0":
         exit()
 
-# function 3
+# 
 def randomnumber():
     print("-------------------------------")
     randomnr = input("1.random number(0-1000) \n2.dice(1-6) \n3.coin flip(head, tails) \n0.to go back \n> ")

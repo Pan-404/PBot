@@ -45,19 +45,19 @@ def randomnumber():
     print("-------------------------------")
     randomnr = input("1.random number(0-1000) \n2.dice(1-6) \n3.coin flip(head, tails) \n0.to go back \n> ")
 
-    if randomnr == "1":
+    if randomnr == "1": #random number
         t.sleep(0.2)
         print(r.randrange(0,1000))
         back = input("to go back to the menu type back. \n> ")
         if back == "back":
             randomnumber()
-    elif randomnr == "2":
+    elif randomnr == "2": #dice
         t.sleep(0.2)
         print(r.randrange(1,6 ))
         back = input("to go back to the menu type back \n> ")
         if back == "back":
             randomnumber()
-    elif randomnr == "3":
+    elif randomnr == "3": #coinflip
         t.sleep(0.2)
         headortails = r.randrange(0, 1)
         if headortails == "0":
@@ -67,7 +67,7 @@ def randomnumber():
         back = input("to go back to the menu type back \n> ")
         if back == "back":
             randomnumber()
-    elif randomnr == "0":
+    elif randomnr == "0": #back
         meniu()
 
 
